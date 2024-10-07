@@ -601,7 +601,7 @@
         </div>
 
 	    
-	     <! -- 
+<!--
 	<div id="chatbot-container" style = "position: fixed;
         bottom: 20px;
         right: 20px;
@@ -612,8 +612,7 @@
         overflow: hidden;
         z-index: 9999;">
 <iframe src='https://webchat.botframework.com/embed/chatbottecheduca-bot?s=kzZmYMOwEDg.3irp9vzswpz7jeeN5IFOChENdTs7z4SKCGLoSuwWxKM'  style="width: 100%; height: 100%; border: none;"></iframe>	</div>
---> 
-	   
+ -->   
         <div class="popup-container" id="login-popup">
             <div class="popup">
               <form method="POST" action="login_register.php">
