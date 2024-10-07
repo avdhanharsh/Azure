@@ -599,7 +599,7 @@
                 </div>
             </div>
         </div> 
-       
+       <iframe src='https://webchat.botframework.com/embed/techeducachatbot-bot?s=8toLLs3FOxg.YVRvg0LlxYiFR2UoURfYCLdun9Fwao4cz1fkCxJSKC4'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
 
         <div class="popup-container" id="login-popup">
             <div class="popup">
