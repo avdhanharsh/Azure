@@ -598,9 +598,18 @@
                     </div>
                 </div>
             </div>
-        </div> 
-       <iframe src='https://webchat.botframework.com/embed/techeducachatbot-bot?s=8toLLs3FOxg.YVRvg0LlxYiFR2UoURfYCLdun9Fwao4cz1fkCxJSKC4'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
-
+        </div>
+	<div id="chatbot-container" style = "position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 300px; 
+        height: 400px; 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 9999;">
+       <iframe src='https://webchat.botframework.com/embed/techeducachatbot-bot?s=8toLLs3FOxg.YVRvg0LlxYiFR2UoURfYCLdun9Fwao4cz1fkCxJSKC4'  style='width: 100%; height: 100%; border: none;'></iframe>
+	</div>
         <div class="popup-container" id="login-popup">
             <div class="popup">
               <form method="POST" action="login_register.php">
