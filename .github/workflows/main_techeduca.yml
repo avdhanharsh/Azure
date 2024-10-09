@@ -63,4 +63,4 @@ jobs:
           app-name: 'techeduca'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17D090217B514E1496E48C916BC76F3C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D6916BD40B2B42BDB3462F5031F17195 }}
