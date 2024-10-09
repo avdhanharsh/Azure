@@ -585,13 +585,12 @@
                 <div class="main">
                     <div class="content">
                         <h2>Contact Us</h2>
-                        <form action="https://formspree.io/f/mrgwdeqy" method="post">
-                            <input type="text" name="name" placeholder="Enter Your Name">
-                          
-                            <input type="email" name="email" placeholder="Enter Your Email">
-                            <textarea name="message" placeholder="Your Message"></textarea>                   
-                 <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
-                        </form>
+                        <form action="submit_form.php" method="post">
+    <input type="text" name="name" placeholder="name" required><br>
+    <input type="email" name="email" placeholder="email" required><br>
+    <textarea name="message" cols="30" rows="8" placeholder="message"></textarea><br>
+    <button class="contact-but">Submit</button>
+</form>
                     </div>
                     <div class="form-img">
                         <img src="images/bg1.png" alt="">
