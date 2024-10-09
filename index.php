@@ -600,7 +600,17 @@
         </div>
 
 	
-	    
+	    <div id="chatbot-container" style = "position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 300px; 
+        height: 400px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 9999;">
+	    <iframe src='https://webchat.botframework.com/embed/chatbottecheduca15-bot?s=80N20FViza0.ddKkpyy6FvYsnFOVWOa_h63AILrr3ouRXJD_OLgYePc'  style='width: 100%; height: 100%; border: none;'></iframe>
+            </div>
 
         <div class="popup-container" id="login-popup">
             <div class="popup">
